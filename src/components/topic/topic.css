@@ -82,7 +82,69 @@
     padding-top: 18px;
 }
 
-.skill__container .skill .skill__body .skill_text{
+.skill__container .skill .skill__body .skill_text {
     /* padding-left: 5px;     */
-    font-size: 13px;    
+    font-size: 13px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .content .section .title {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        padding-top: 38px;
+    
+    }        
+    .header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }    
+    .content .section .text {
+        padding-top: 10px;
+        font-size: 10px;
+        text-indent: 30px;
+    }    
+    .content .section .title {
+        text-align: center;
+        font-size: 15px;
+        
+    
+    }    
+    .skill .skill__container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
+
+/* ===============================Media Queries (small devices*/
+@media screen and (max-width: 600px) {
+    .content .section .title {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        padding-top: 20px;
+    
+    }    
+    .header {
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }    
+    .content .section .text {
+        padding-top: 5px;
+        font-size: 10px;
+        text-indent: 30px;
+    }    
+    .content .section .title {
+        text-align: center;
+        font-size: 15px;
+        
+    
+    }     
+    .skill .skill__container {
+        grid-template-columns: repeat(3, .5fr);
+        gap: .5rem;
+    }
 }
