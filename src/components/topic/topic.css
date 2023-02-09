@@ -1,0 +1,88 @@
+.header .logo img {
+    width: 310px;
+    height: 122px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    width: 1768px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.header .content {
+
+    background: #efefef;
+    height: 210px;
+}
+
+.content .section {
+    margin-top: 30px;
+}
+
+.content .section .title {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    padding-top: 38px;
+
+}
+
+.content .section .text {
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 38px;
+    font-size: 14px;
+    font-weight: 400;
+    text-indent: 30px;
+}
+
+.skill .skill__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.skill {
+    height: fit-content;
+    padding-top: 10px;
+}
+
+.skill:hover {
+    background: transparent;
+    cursor: default;
+}
+
+.skill__container .skill .skill__body .skill__logo img {
+    width: 128px;
+    height: 128px;
+}
+
+.skill__container .skill .skill__body .skill__logo {
+    float: left;
+}
+
+.skill__container .skill .skill__head {
+    font-size: 18px;
+}
+
+.skill__container .skill .skill__body {
+    padding-top: 18px;
+}
+
+.skill__container .skill .skill__body .skill_text{
+    /* padding-left: 5px;     */
+    font-size: 13px;    
+}
